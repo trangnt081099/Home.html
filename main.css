@@ -1,0 +1,362 @@
+body {
+  font-family: roboto;
+}
+.avertiment img {
+  width: 100%;
+}
+.login {
+  font-size: 20px;
+  margin-top: 5px;
+}
+.login a {
+  color: #009900;
+}
+.login i {
+  color: #009900;
+}
+.hovers {
+  font-size: 20px;
+  width: 180px;
+
+  color: #009900;
+}
+.info-item h2 {
+  color: black;
+  text-shadow: 2px 2px 9px black;
+}
+.baset {
+  display: none;
+  padding: 0 30px;
+  margin-top: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.9);
+  position: absolute;
+  min-width: 70px;
+  background-color: white;
+  color: #080808;
+}
+.hovers:hover .baset {
+  display: block;
+}
+
+.images img:hover {
+  box-shadow: 0px 8px 16px 0px rgba(83, 192, 21, 0.5);
+  border: 3px solid #009900;
+}
+.product-search {
+  margin-top: 7px;
+}
+.container {
+  margin-top: 8px;
+}
+.nav-link {
+  margin-left: 10px;
+}
+.input-group {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.input-group input {
+  border: none;
+}
+.nav-item i {
+  color: #009900;
+}
+span {
+  margin: 10px;
+  color: #009900;
+  font-size: 20px;
+}
+.fruist img{
+    transition:width 9s, height 9s;
+}
+.fruist img:hover {
+  width: 100%;
+  height: 100%;
+  box-shadow: 2px 2px 14px 12px white;
+}
+#myBtn {
+  text-decoration: none;
+}
+.btn-primary {
+  width: 100%;
+}
+
+/* tab modal login store */
+.login__modal {
+  display: block;
+  position: fixed;
+  z-index: 1; /*tính chỉ định sắp xếp các phần tử  */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding-top: 60px;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.form-label {
+  font-size: 20px;
+  color: black;
+}
+.login__modal--search {
+  background-color: rgb(244, 246, 247);
+  top: 0;
+  left: 0;
+  margin: 130px 360px auto auto;
+  border-radius: 5px;
+  width: 25%;
+  padding: 12px 15px;
+}
+.btn-sigin {
+  color: white;
+  background-color: #0ab43d;
+  width: 100%;
+}
+.btn-sigin:hover {
+  background-color: #4c49f3;
+  color: white;
+}
+.login__modal--out {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.login__modal-fogot a:hover {
+  color: red;
+}
+.login__modal--icon {
+  position: relative;
+  margin-bottom: 80px;
+}
+.dropdown:hover li a{
+display: block;
+  background-color: #82e2b5;
+border-bottom: 3px solid black;
+}
+.close {
+  position: absolute;
+  right: 5px;
+  top: -95px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-outline-success {
+  width: 60%;
+}
+.buy-now {
+  width: 70%;
+}
+.details {
+  width: 100%;
+  transition:width 2s, height 2s;
+}
+.details img {
+  width: 100%;
+}
+.details img:hover {
+  background-image: linear-gradient(purple, pink);
+}
+.details:hover {
+  background-color: #e9c185;
+
+  width: 310px;
+  height: 530px;
+}
+
+.name {
+  width: 182px;
+  height: 62px;
+  border: 1px solid #009900;
+
+  border-radius: 3px;
+}
+.menu {
+  background-color: #008848;
+  padding: 0 50px;
+}
+.menu li {
+  padding: 0 50px;
+}
+.menu li a {
+  color: #ffff;
+  font-size: 25px;
+  padding: 0 50px;
+}
+.menu li a:hover {
+  color: black;
+}
+.fa-bars {
+  color: white;
+  font-size: 20px;
+}
+.col-md-2 {
+  margin-top: 10px;
+}
+.col-md-2 img {
+  width: 150px;
+  height: 115px;
+  border: 1px solid #d2c7c7;
+  padding: 10px;
+}
+.col-md-2 p {
+  text-align: center;
+}
+.details p del {
+  color: #3d3c3c;
+}
+.col-md-3 img {
+  width: 100%;
+  border: 1px solid rgb(241, 33, 33);
+}
+.col-md-3 {
+  text-align: center;
+  margin-top: 10px;
+}
+.col-md-3 h6 {
+  margin-top: 10px;
+  font-size: 25px;
+}
+.details p {
+  font-size: 25px;
+  color: red;
+}
+.col-md-3 del {
+  font-size: 20px;
+}
+
+.info-product img {
+  width: 100%;
+}
+
+.info-product p {
+  padding-top: 10px;
+  font-size: 25px;
+}
+.info-product span {
+  color: red;
+  font-size: 25px;
+}
+
+.now:hover {
+  background-color: #e9c185;
+}
+.apect {
+  width: 50%;
+}
+.info-item {
+  background-color: #f79412;
+  padding: 5px;
+}
+.footer {
+  color: white;
+  font-size: 20px;
+  background-color: #0a472e;
+  text-align: left;
+}
+.text h5 {
+  margin-left: 30px;
+}
+
+.text ul {
+  list-style-type: none;
+  color: white;
+}
+.text li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.text li a:hover {
+  color: red;
+}
+.fa-envelope {
+  color: white;
+}
+.fa-facebook {
+  color: white;
+}
+.fa-phone {
+  color: white;
+}
+.fa-edge {
+  color: white;
+}
+.parytion a {
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid black;
+  color: white;
+}
+.main {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* @media only screen and (max-width: 768px) {
+  .avertiment img {
+    display: none;
+  }
+} */
+@media only screen and (max-width: 576px) {
+  .avertiment {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .avertiment {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+  .basket {
+    display: none;
+  }
+}
